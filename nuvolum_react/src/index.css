@@ -1,9 +1,23 @@
 *{
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Verdana, sans-serif;
+  font-weight: 100;
+}
+
+#header_div {
+  font-size: 40px;
+}
+
+#paragraph_div{
+  font-size: 30px;
+  width:60%;
+  margin: auto;
 }
 
 
+.h {
+  background-color: red;
+}
 
 /* body {
   margin: 0;
