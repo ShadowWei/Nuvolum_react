@@ -2,33 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+const header = React.createElement('h1', {}, "Page Heading"); 
+const para = React.createElement('p', {}, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis architecto neque illum eius error, totam mollitia reiciendis officiis quis magnam?"); 
 
+ReactDOM.render(header, document.getElementById('header_div')); 
+ReactDOM.render(para, document.getElementById('paragraph_div')); 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import App from './App';
-// import reportWebVitals from './reportWebVitals';
-
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
-
-// // If you want to start measuring performance in your app, pass a function
-// // to log results (for example: reportWebVitals(console.log))
-// // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();
